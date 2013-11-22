@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: 欢迎来到我的Github主页
 tagline: 你好
 ---
 {% include JB/setup %}
