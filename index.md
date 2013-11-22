@@ -1,36 +1,21 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting tagline
+tagline: 你好
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## 关于我
+================================
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+余诞于中华人民共和国三十六年甲申月辛卯日(农历乙丑年)，家道贫，世累耕。自幼喜好读书，经史子集，皆有喜好之。幼习书法，不成气候，少学古文，小有成就。八岁入学，十二求学他乡，恍惚十余年已过，思前之事，若过眼云烟，感慨万千。天道不泯，吾心尚在。虽穷而志坚，虽微而心广！今年方廿八，却无建树，碌碌无为，吾心当愧！呜呼！时乖命謇，命运不济，虽心存济世之愿，却无襄民之时。不知何时方登龙庭，造福于民，恩济天下，虽有此意，却无命运，但苍天有愿，助吾成功！
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+* River Locker King is my English name & Chinese name is Wang Jiang.
+* Shaanxi Province China
+* Pythoner And PHPer
+* I am like Reading,Historian,Literature,etc.
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## Posts
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +23,5 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
