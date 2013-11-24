@@ -1,39 +1,35 @@
+#markdown: rdiscount
 markdown: kramdown
+#markdown: redcarpet
 pygments: true
 safe: false
 permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: Django Wong
-host: blog.36coder.com
-desc: Some description of your site.
+name: 闲敲棋子
+host: dylanvivi.github.com
+desc: 闲敲棋子落灯花
 
 custom:
     category:
-        study: 学习心得
-        python: Python学习
-        golang: Golang学习
+        notes: 学习笔记
+        problems: 遇到问题
     categories:
-      - name:  study
-        title: 学习心得
-		
-      - name:  python
-        title: Python学习
-		
-      - name: golang
-        title: Golang学习
+      - name:  notes
+        title: 学习笔记
 
-    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+      - name:  problems
+        title: 遇到问题
 
 meta:
     author:
-        name: DjangoWong
-        email: rlk002@gmail.com
-        disqus: assad2012githubio              # Disqus缩略标识
-        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github: assad2012                # GitHub账号
-        gravatar: 868bf0ae25e5334c4493a050970611b5  # Gravatar头像标识
+        name: Dylan
+        email: dylanvivi@gmail.com
+        disqus: dylanvivi 			                # Disqus缩略标识
+        gcse: 002980071478006019237:bcmd-n00ura     # Google自定义搜索标识ID
+        github: dylanvivi              			    # GitHub账号
+        gravatar: b1b40161ebd87b851d3eb65e870f1213  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址

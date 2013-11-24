@@ -1,8 +1,5 @@
-My github blog
-===
+Jekyll主题: SimpleGray
+======
 
-create 2013/11/23
+这是一个由[造轮子工程师](http://mytharcher.github.com)设计的jekyll站点主题，中文名称：**极简灰**。
 
-theme by [造轮子工程师]
-
-[造轮子工程师]: https://github.com/mytharcher/SimpleGray

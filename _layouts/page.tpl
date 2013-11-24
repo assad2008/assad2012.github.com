@@ -19,13 +19,12 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012</p>
+		<p>&copy; Since 2012 <a href="http://github.com/dylanvivi" target="_blank">github.com/dylanvivi</a></p>
 	</footer>
 </div>
 
 <aside>
 	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="http://blog.rexsong.com/wp-content/themes/rexsong/icon_feed.gif" alt="RSS feed" /></a></h2>
-	
 	<nav class="block">
 		<ul>
 		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
@@ -34,38 +33,38 @@
 	</nav>
 	
 	<form action="/search/" class="block block-search">
-		<h3>Search</h3>
-		<p><input type="search" name="q" placeholder="Search" /></p>
+		<h3>搜索</h3>
+		<p><input type="search" name="q" placeholder="输入关键词按回车搜索" /></p>
 	</form>
 	
 	<div class="block block-about">
-		<h3>About</h3>
+		<h3>关于</h3>
 		<figure>
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>代码如诗</p>
+		<p>我要抱着向日葵，一点一点，开始歌唱 ~</p>
 	</div>
 	
 	<div class="block block-license">
-		<h3>Copyright</h3>
-		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
+		<h3>版权申明</h3>
+		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="本站(博客)作品全部采用知识共享署名-非商业性使用-禁止演绎 2.5 中国大陆许可协议进行许可。转载请通知作者并注明出处。"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
 	
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
-		<a href="https://github.com/{{ site.meta.author.github }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 	</div>
 	{% endif %}
 	
 	<div class="block block-thank">
 		<h3>Powered by</h3>
 		<p>
-			<a href="http://disqus.com/" target="_blank">Disqus</a>,
+			<a href="http://disqus.com/" target="_blank" title="云评论服务">Disqus</a>,
 			<a href="http://elfjs.com/" target="_blank">elf+js</a>,
 			<a href="https://github.com/" target="_blank">GitHub</a>,
-			<a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
-			<a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
+			<a href="http://www.google.com/cse/" target="_blank" title="自定义站内搜索">Google Custom Search</a>,
+			<a href="http://en.gravatar.com/" target="_blank" title="统一头像标识服务">Gravatar</a>,
 			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
@@ -73,9 +72,8 @@
 	</div>
 </aside>
 
-<script src="http://cdn.elfjs.com/code/elf-0.4.1-min.js"></script>
+<script src="http://elfjs.googlecode.com/files/elf-0.4.1-min.js"></script>
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-
 <script src="/assets/js/site.js"></script>
 {% for script in page.scripts %}<script src="{{ script }}"></script>
 {% endfor %}
@@ -86,7 +84,6 @@ site.URL_DISCUS_COMMENT = '{{ site.meta.author.disqus }}' ? 'http://{{ site.meta
 site.VAR_SITE_NAME = '{{ site.name }}';
 site.VAR_GOOGLE_CUSTOM_SEARCH_ID = '{{ site.meta.author.gcse }}';
 site.TPL_SEARCH_TITLE = '#{0} / 搜索：#{1}';
-site.VAR_AUTO_LOAD_ON_SCROLL = {{ site.custom.scrollingLoadCount }};
 </script>
 </body>
 </html>
