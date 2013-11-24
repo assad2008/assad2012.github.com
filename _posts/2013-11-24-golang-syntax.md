@@ -3,7 +3,7 @@ layout: post
 title: Golang语法笔记
 category: golang
 ---
-	
+
 	// TODO package
 	
 	// Go是采用语法解析器自动在每行末尾增加分号，所以在写代码的时候可以把分号省略。
