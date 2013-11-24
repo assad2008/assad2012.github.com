@@ -19,7 +19,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012 <a href="http://github.com/dylanvivi" target="_blank">github.com/dylanvivi</a></p>
+		<p>&copy; Since 2013 <a href="http://github.com/assad2012" target="_blank">github.com/assad2012</a></p>
 	</footer>
 </div>
 
@@ -43,7 +43,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>我要抱着向日葵，一点一点，开始歌唱 ~</p>
+		<p>左手代码，右手可乐！</p>
 	</div>
 	
 	<div class="block block-license">
