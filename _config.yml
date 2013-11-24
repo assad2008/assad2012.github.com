@@ -14,7 +14,6 @@ custom:
         study: 学习心得
         python: Python学习
         golang: Golang学习
-		
     categories:
       - name:  study
         title: 学习心得
