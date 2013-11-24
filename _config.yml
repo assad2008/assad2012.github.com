@@ -15,6 +15,7 @@ custom:
     category:
         notes: 学习笔记
         problems: 遇到问题
+        golang: Golang学习
     categories:
       - name:  notes
         title: 学习笔记
@@ -22,6 +23,8 @@ custom:
       - name:  problems
         title: 遇到问题
 
+      - name:  golang
+        title: Golang学习
 meta:
     author:
         name: DjangoWong
