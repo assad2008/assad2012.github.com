@@ -6,19 +6,24 @@ exclude:
   - README.md
 
 name: Django Wong
-host: yourdomain.com
+host: blog.36coder.com
 desc: Some description of your site.
 
 custom:
     category:
-        default: Default Category
-        another: Another Category
+        study: 学习心得
+        python: Python学习
+        golang: Golang学习
+		
     categories:
-      - name:  default
-        title: Default Category
+      - name:  study
+        title: 学习心得
 
-      - name:  another
-        title: Another Category
+      - name:  python
+        title: Python学习
+
+      - name: golang
+        title: Golang学习
 
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
